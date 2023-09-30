@@ -9,13 +9,17 @@
     background-image: url('/imagem/imagem-bspae.png');
     background-position: center;
     background-size: cover;
-    height: 85vh;
+    height: 95vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: white;
            
 }
+body{
+    
+}
+
 
 
 h2 ,.data-evento{
@@ -25,6 +29,11 @@ h2 ,.data-evento{
 #descricao h2{
     font-size: 3em;
     
+}
+#descricao h1{
+    color: orange;
+    font-size: 3em;
+    font-weight: 600;
 }
 .evento{
     font-size: 2em;
@@ -80,14 +89,141 @@ select{
 label{
     margin-bottom: 1em;
 }
-#sec-geral{
-    display:flex;
-    justify-content: space-around;
-    background-color: darkslategrey;
-    width: 100vw;
+#key-benefts h2{
+    
     text-align: center;
-    padding: 12px;
+    padding: 2em;
+    font-weight: 600;
+    color: #272323;
+   
+    
 }
+.benefts{
+    display: flex;
+    justify-content: space-around;
+    padding: 4em;
+    margin: 0 auto;
+    
+}
+.beneft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 20%;
+}
+.beneft .beneft-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 2em;
+}
+#beneft-1{
+    background-image: url('/imagem/ambiente-1.png');
+}
+#beneft-2{
+    background-image: url('/imagem/ambiente-2.png');
+}
+#beneft-3{
+    background-image: url('/imagem/ambiente-3.png');
+}
+#location{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3em;
+    background-image: url('/imagem/ambiente-4.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    color: white;
+    
+}
+#adress , #about-location{
+    max-width: 30%;
+}
+#adress p{
+    font-size: 1.3em;
+    text-align: justify;
+    
+    
+}
+#adress span{
+    color: orange;
+    font-size: 5em;
+    margin-bottom: 70px;
+}
+#about-location h3{
+    font-size: 4em;
+    color: orange;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#about-location p{
+    font-size: 1.3em;
+    text-align: justify;
+}
+#divisao{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 500;
+    
+}
+#detalhes-1{
+    display: flex;
+    justify-content:space-around;
+    padding: 30px; 
+     
+     
+}
+#detalhes-2{
+    display: flex;
+    justify-content:space-around;
+    padding: 30px;
+    
+       
+}
+img{
+    width: 450px;
+}
+.titulo{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+.titulo, ul h3{
+  margin-top: 70px;
+  
+}
+li{
+    list-style: none;
+    font-size: 1em;
+}
+.titulo h3{
+    font-size: 1.7em;
+    text-transform: uppercase;
+}
+footer{
+    background-color:black;
+    text-align: center;
+    color: orange;
+    padding: 5px;
+}
+footer img{
+    width: 200px;
+}
+   
+    
+
+
+
+
 
 
 
